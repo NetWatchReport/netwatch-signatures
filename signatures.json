@@ -1,0 +1,24 @@
+[
+  {
+    "id": "NWTA-2026-001",
+    "name": "LLM-Scanner/2.0-Fast",
+    "version": "1.0",
+    "created": "2026-03-11",
+    "layer": 1,
+    "match": {
+      "header_hash": ["a6e546c711ea2493"],
+      "ua_contains": ["LLM-Scanner"],
+      "ua_regex": "live Gecko",
+      "behavioral": {
+        "paths": ["/api/tags", "/api/version", "/api/generate", "/completion", "/slots", "/props", "/v1/models", "/v1/completions", "/health", "/api/health"],
+        "min_hits": 3,
+        "window_seconds": 60
+      }
+    },
+    "action": "block",
+    "severity": "high",
+    "confidence": "high",
+    "reference": "https://github.com/NetWatchReport/advisories/blob/main/advisories/NWTA-2026-001.md",
+    "description": "Custom LLM infrastructure scanning tool. Performs framework-agnostic enumeration of Ollama, llama.cpp, OpenAI-compatible, and LM Studio endpoints. Rotates between VPN and cloud infrastructure with active UA spoofing."
+  }
+]

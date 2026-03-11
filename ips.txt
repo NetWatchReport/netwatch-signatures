@@ -1,0 +1,6 @@
+# NetWatch IP Blocklist
+# Last updated: 2026-03-11
+# Format: IP # NWTA-ID | description
+185.195.232.175 # NWTA-2026-001 | LLM-Scanner/2.0-Fast (Mullvad exit)
+44.220.188.140 # NWTA-2026-001 | LLM-Scanner/2.0-Fast (AWS EC2)
+44.220.185.217 # NWTA-2026-001 | LLM-Scanner/2.0-Fast (AWS EC2)

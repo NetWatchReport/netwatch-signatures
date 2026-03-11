@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "last_updated": "2026-03-11T21:30:00Z",
+  "files": {
+    "ips.txt": {
+      "sha256": "adbed625f4e45c0d003b19a8b2e3c38b37f9e02f2ff6cfe5bd4076be89eb7241"
+    },
+    "signatures.json": {
+      "sha256": "bd5d1a11af8276208bff151adff5e89ad5eb168df32525279d06023e77c129b2"
+    },
+    "exploits.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "prompts.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  }
+}
