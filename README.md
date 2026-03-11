@@ -1,4 +1,10 @@
-# NetWatch Signature Feed
+<p align="center">
+  <img src="assets/logo.png" alt="NetWatch" width="200">
+</p>
+
+<h1 align="center">NetWatch Signature Feed</h1>
+
+<p align="center"><em>Your scanner has a fingerprint too.</em></p>
 
 Open-source threat signature feed for LLM infrastructure protection.
 
